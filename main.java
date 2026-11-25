@@ -13,7 +13,7 @@ class TextEditor {
 
     Node head;
 
-    // Insert character at the end
+    
     void insert(char ch) {
         Node newNode = new Node(ch);
 
@@ -31,7 +31,7 @@ class TextEditor {
         temp.next = newNode;
     }
 
-    // Display text
+
     void display() {
         Node temp = head;
 
